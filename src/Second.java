@@ -17,8 +17,8 @@ public class Second {
 			throw new IllegalArgumentException("Строка не может быть пустой или иметь значение nill!");
 		}
 		for(char i:  str.toCharArray()) {
-			if(Character.isDigit(i)){
-				throw new IllegalArgumentException("Выбрасываем исключение. В строке содержится числовое значение: " + str);
+		    if(Character.isDigit(i)){
+		        throw new IllegalArgumentException("Выбрасываем исключение. В строке содержится числовое значение: " + str);
 		}
 		}
 	}
