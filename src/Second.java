@@ -18,7 +18,7 @@ public class Second {
 		}
 		for(char i:  str.toCharArray()) {
 		if(Character.isDigit(i)){
-		throw new IllegalArgumentException("Выбрасываем исключение. В строке содержится числовое значение: " + str);
+		    throw new IllegalArgumentException("Выбрасываем исключение. В строке содержится числовое значение: " + str);
 		}
 		}
 	}
